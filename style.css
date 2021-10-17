@@ -1,0 +1,270 @@
+*{
+    overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    overflow-y: hidden;
+    margin: 0;
+}
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(53, 58, 64);
+    color: white;
+}
+
+.wrapper{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#tickets{
+    color: rgb(47, 143, 47);
+    text-decoration: none;
+}
+
+#tickets:hover{
+    text-decoration: underline;
+}
+
+.nav-container li{
+    margin: 0 12px;
+}
+
+a .codoacodo{
+    width: 100px
+}
+
+.img-text{
+    font-size: 1.2em;
+}
+
+.nav-img{
+    text-decoration: none;
+    color: white;
+}
+
+.grey{
+    color: rgb(133, 133, 133);
+}
+
+.nav-img:hover{
+    color: wheat;
+}
+
+.first-container{
+    position: relative;
+    height: 75vh;
+    background-image: url(ba1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 50%;
+}
+.ft-text{
+    position: relative;
+    color: white;
+    height: 100%;
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
+}
+.ft-text h1{
+    font-size: 3.2em;
+}
+
+.ft-text-bs{
+    width: 45%;
+    text-align: right;
+}
+
+.ft-buttons{
+    position: relative;
+    display: flex;
+    gap: 12px;
+}
+
+.orator-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.orator-text h2, .orator-text p{
+    margin: 0;
+}
+
+.orators-container{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.orators{
+    width: 60%;
+}
+
+.card-group{
+    gap: 35px;
+}
+
+.js{
+    font-size: 0.6em;
+    font-weight: 700;
+    background-color: rgb(254, 193, 6);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.react{
+    color: white;
+    font-size: 0.6em;
+    font-weight: 700;
+    background-color: rgb(23, 162, 183);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.negocios{
+    color: white;
+    font-size: 0.6em;
+    font-weight: 700;
+    background-color: rgb(108, 116, 126);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.startups{
+    color: white;
+    font-size: 0.6em;
+    font-weight: 700;
+    background-color: rgb(218, 53, 67);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.carousel{
+    margin-top: 50px;
+}
+.carousel-content{
+    display: flex;
+}
+.carousel-content img{
+    object-fit: cover;
+}
+
+.info{
+    color: white;
+    border: 1px solid white;
+    padding: 20px 30px;
+    background-color: rgb(53, 58, 64);
+}
+
+.info h1{
+    margin-bottom: 40px;
+}
+
+.btn-outline-secondary{
+    color: white;
+    border: white;
+}
+
+.orator-text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 0;
+}
+.orator-text2 p {
+    margin: 0;
+}
+
+.form-orator{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-na{
+    display: flex;
+    gap: 40px;
+}
+
+.input-na input{
+    flex: 1 1 50%;
+}
+
+.mb-3 textarea::placeholder{
+    font-size: 20px;
+}
+
+.submit{
+    color: white;
+    border: none;
+    background-color: rgb(150, 201, 62);
+    padding: 8px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 8vh;
+    background: linear-gradient(90deg, rgba(0,42,112,1) 0%, rgba(1,105,177,1) 100%, rgba(0,112,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+ul.foot-container li a{
+    text-decoration: none;
+    color: white;
+}
