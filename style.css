@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .wrapper{
-    width: 90%;
+    width: 94%;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -54,11 +54,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 a .codoacodo{
-    width: 100px
+    width: 75px
 }
 
 .img-text{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .nav-img{
