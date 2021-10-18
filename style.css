@@ -2,6 +2,10 @@
     overflow-x:hidden;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 h1,h2,h3,h4,h5,h6{
     overflow-y: hidden;
     margin: 0;
@@ -27,7 +31,15 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     margin: 0;
 }
-
+.nav-container li a{
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+.nav-container li a:hover{
+    color: inherit;
+}
 #tickets{
     color: rgb(47, 143, 47);
     text-decoration: none;

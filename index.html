@@ -14,18 +14,18 @@
     <a class="nav-img" target="_BLANK" href="https://aulasvirtuales.bue.edu.ar/?redirect=0"><img class="codoacodo" src="codoacodo.png" alt="Codo a Codo img"> <span class="img-text">Conf Bs As</span></a>
     
     <ul class="nav-container">
-      <li>La conferencia</li>
-      <li class="grey">Los oradores</li>
-      <li class="grey">Lugar y Fecha</li>
-      <li class="grey">Conviértete en orador</li>
-      <li><a href="#" id="tickets">Comprar Tickets</a></li>
+      <li><a href="#conf" class="white">La conferencia</a></li>
+      <li><a href="#orators" class="grey">Los oradores</a></li>
+      <li><a href="#place" class="grey">Lugar y Fecha</a></li>
+      <li><a href="#conv" class="grey">Conviértete en orador</a></li>
+      <li><a href="javascript/tickets.html" id="tickets">Comprar Tickets</a></li>
     </ul>
     </div>
   </nav>
 
   <div class="first-container">
     <div class="ft-text">
-      <h1>Conf Bs As</h1>
+      <h1 id="conf">Conf Bs As</h1>
       <p class="ft-text-bs">Bs As llega por primera vez a la Argentina. 
         Un evento para compartir con nuestra comunidad el conocimiento y 
         experiencia de los expertos que están creando el futuro de internet.
@@ -33,13 +33,13 @@
          y los oradores de primer nivel que tenemos para tí. Te esperamos!
       </p>
       <div class="ft-buttons">
-        <button type="button" class="btn btn-outline-info">Quiero ser Orador</button>
-        <button type="button" class="btn btn-success">Comprar Tickets</button>
+        <a href="#conv"><button type="button" class="btn btn-outline-info">Quiero ser Orador</button></a>
+        <a href="javascript/tickets.html"><button type="button" class="btn btn-success"> Comprar Tickets</button></a>
       </div>
     </div>
   </div>
 
-  <div class="orator-text">
+  <div id="orators"class="orator-text">
     <p>CONOCE A LOS</p>
     <h2>ORADORES</h2>
   </div>
@@ -78,7 +78,7 @@
   </div>
 </div>
 
-
+<div id="place">
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -122,8 +122,9 @@
     </div>
   </div>
 </div>
+</div>
 
-<div class="orator-text2">
+<div class="orator-text2" id="conv">
   <p>CONVIERTETE EN UN</p>
   <h2>ORADOR</h2>
   <p>Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!
