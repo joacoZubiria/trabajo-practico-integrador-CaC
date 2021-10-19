@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tickets</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="wrapper">
+        <a class="nav-img" target="_BLANK" href="https://aulasvirtuales.bue.edu.ar/?redirect=0"><img class="codoacodo" src="../codoacodo.png" alt="Codo a Codo img"> <span class="img-text">Conf Bs As</span></a>
+        
+        <ul class="nav-container">
+          <li><a href="../#conf" class="white">La conferencia</a></li>
+          <li><a href="../#orators" class="grey">Los oradores</a></li>
+          <li><a href="../#place" class="grey">Lugar y Fecha</a></li>
+          <li><a href="../#conv" class="grey">Conviértete en orador</a></li>
+          <li><a href="tickets.html" id="tickets">Comprar Tickets</a></li>
+        </ul>
+        </div>
+      </nav>
+
+    <div class="cards">
+        <span id="80" class="border border-primary">
+            <div id="80" class="text-container">
+                <h4 id="80">Estudiante</h4>
+                <p id="80" class="discount">Tienen un descuento</p>
+                <p id="80" class="discountPercentage">80%</p>
+                <p id="80" class="condition">* presentar documentación</p>
+            </div>
+        </span>
+
+        <span id="50" class="border border-info">
+                <div id="50"class="text-container">
+                    <h4 id="50">Trainee</h4>
+                    <p id="50" class="discount">Tienen un descuento</p>
+                    <p id="50" class="discountPercentage">50%</p>
+                    <p id="50" class="condition">* presentar documentación</p>
+                </div>
+        </span>
+
+        <span id="15" class="border border-warning">
+            <div id="15" class="text-container">
+                <h4 id="15">Junior</h4>
+                <p id="15" class="discount">Tienen un descuento</p>
+                <p id="15" class="discountPercentage">15%</p>
+                <p id="15" class="condition">* presentar documentación</p>
+            </div>
+        </span>
+
+    </div>  
+    
+    <div class="sale">
+        <p>VENTA</p>
+        <h1>VALOR DE TICKET 200$</h1>      
+    </div>
+
+    <form action="#" method="post">
+        <div class="form-sale">
+          <div class="form-container">
+        <div class="mb-3 input-na">
+          <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          <input required type="text" class="form-control" id="exampleFormControlInput2" placeholder="Apellido">
+        </div>
+        <div class="mb-3">
+            <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+        </div>
+        <div class="mb-3 input-na">
+            <div class="section">
+                <label for="select">Cantidad</label>
+                <input required type="number" min = "1" max ="4" class="form-control form-number" id="exampleFormControlInput1" placeholder="Cantidad">
+            </div>
+            <div class="section">
+                <label for="select">Categoría</label>
+                <select required class="form-select" aria-label="Default select example">
+                    <option id="notValue" selected value="0">Sin descuento</option>
+                    <option id="80" value="80">Estudiante</option>
+                    <option id="50" value="50">Trainee</option>
+                    <option id="15" value="15">Junior</option>
+                </select>
+            </div>
+        </div>
+        <div class="alert alert-primary" role="alert" id="checkout">
+            Total a Pagar:
+        </div>
+        <div class="button-checkout">
+            <div class="box">
+                <button class="submit" onclick="clickReset(this)">Borrar</button>
+            </div>
+            <div class="box">
+                <button class="submit" type="submit">Resumen</button>
+            </div>
+        </div>   
+        </div>
+        </div>
+    </form>
+
+    <footer>
+        <div class="foot-wrapper">
+        <ul class="foot-container">
+          <li><a href="#">Preguntas</a><br><a href="#">Frecuentes</a></li>
+          <li><a href="#">Contactanos</a></li>
+          <li><a href="#">Prensa</a></li>
+          <li><a href="#">Conferencia</a></li>
+          <li><a href="#">Términos y</a><br><a href="#">Condiciones</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Estudiantes</a></li>
+        </ul>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
