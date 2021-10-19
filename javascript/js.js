@@ -31,7 +31,6 @@ function change(){
     }
 }
 
-
 function setColorCard(){
     cards.forEach(e => {
         console.log(e)
@@ -46,6 +45,6 @@ function setColorCard(){
 function clickReset(e){
     if(confirm("Seguro que quieres borrar?")){
         e.setAttribute("type","reset");
-        result.innerHTML = "Total a Pagar: "
+        result.innerHTML = "Total a Pagar: ";
     }
 }

@@ -151,7 +151,7 @@ a .codoacodo{
 .section{
     flex: 1 1 50%;
 }
-.submit{
+.submit, .delete{
     color: white;
     border: none;
     background-color: rgb(150, 201, 62);
